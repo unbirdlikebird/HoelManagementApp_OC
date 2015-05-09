@@ -10,6 +10,8 @@
 		37A90B241AE0EFFB00D992AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A90B231AE0EFFB00D992AA /* Foundation.framework */; };
 		37A90B271AE0EFFB00D992AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A90B261AE0EFFB00D992AA /* main.m */; };
 		37A90B2B1AE0EFFB00D992AA /* Hotel.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37A90B2A1AE0EFFB00D992AA /* Hotel.1 */; };
+		37A90B331AE0F01200D992AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A90B321AE0F01200D992AA /* Person.m */; };
+		37A90B361AE0F01E00D992AA /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A90B351AE0F01E00D992AA /* Hotel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		37A90B261AE0EFFB00D992AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37A90B291AE0EFFB00D992AA /* Hotel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hotel-Prefix.pch"; sourceTree = "<group>"; };
 		37A90B2A1AE0EFFB00D992AA /* Hotel.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hotel.1; sourceTree = "<group>"; };
+		37A90B311AE0F01200D992AA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		37A90B321AE0F01200D992AA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		37A90B341AE0F01E00D992AA /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		37A90B351AE0F01E00D992AA /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				37A90B261AE0EFFB00D992AA /* main.m */,
+				37A90B311AE0F01200D992AA /* Person.h */,
+				37A90B321AE0F01200D992AA /* Person.m */,
+				37A90B341AE0F01E00D992AA /* Hotel.h */,
+				37A90B351AE0F01E00D992AA /* Hotel.m */,
 				37A90B2A1AE0EFFB00D992AA /* Hotel.1 */,
 				37A90B281AE0EFFB00D992AA /* Supporting Files */,
 			);
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A90B361AE0F01E00D992AA /* Hotel.m in Sources */,
+				37A90B331AE0F01200D992AA /* Person.m in Sources */,
 				37A90B271AE0EFFB00D992AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
